@@ -10,7 +10,7 @@ MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 # ls 명령어 관련 alias
 # - 컬러 표시, 디렉토리에 / 표시, 날짜는 숫자로만 표시
 alias ls='ls -FG --color=auto'
-alias ll='gls -lFG --color=auto --time-style=long-iso'
+alias ll='ls -alFG --color=auto --time-style=long-iso'
 
 # brew 사용시 git 접속 제한 해제를 위한 개인 토큰키로 아래 사이트에서 생성해야한다.
 # https://github.com/settings/tokens
